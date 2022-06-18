@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+.container
+{
+    display: flex;
+    align-items: center;
+}
+div
+{
+    max-width: 65vw;
+}
+.week
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.week span:nth-child(1),
+.week span:nth-child(7)
+{
+    width: 101%;
+}
+.week span:nth-child(8),
+.week span:nth-child(9)
+{
+    width: 50%;
+}
+.notes
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+span
+{
+    border: 1px black solid;
+    text-align: center;
+    padding: 45px 45px;
+}
+
+.notes span
+{
+   padding: 95px 46px;
+}
