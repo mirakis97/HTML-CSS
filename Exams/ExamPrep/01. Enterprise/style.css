@@ -1,0 +1,56 @@
+html
+{
+    font-family: Helvetica, sans-serif;
+}
+body
+{
+    background-color: #f6f8f9;
+    width: 700px;
+    position: relative;
+}
+.header p{
+   font-size: 11px;
+   padding-top: 10px;
+   margin-left: 10px;
+   color: #273240;
+}   
+.header h2{
+    font-weight: lighter;
+    font-size: 25px;
+    margin-left: 10px;
+    color: #273240;
+ }
+.content
+{
+    width: 350px;
+    margin-left: 10px;
+    color:#969da5;
+}
+.buttons .sales{
+    display: inline-block;
+    margin-left: 10px;
+    border-style: hidden;
+    border-color: #786eff;
+    background-color: #786eff;
+    border-radius: 5px;
+    width: 135px;
+    height: 40px;
+    text-align: center;
+    color: #fbfaff;
+}
+.buttons .learn{
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    width: 135px;
+    height: 40px;
+    text-align: center;
+    color: black;
+}
+.img
+{
+    position: absolute;
+    width: 40%;
+    left: 70%;
+}
