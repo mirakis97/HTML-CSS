@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+
+:root {
+  --clr-grey-light: #efefef;
+  --clr-dark: #222222;
+  --clr-dark-sub: #4c4c4c;
+  --clr-white: #fff;
+  --pad-section: 5rem;
+}
+body {
+  padding: 2rem;
+  font-family: "Raleway", serif;
+  color: var(--clr-dark);
+}
+.title {
+  height: 70vh;
+  background-color: var(--clr-grey-light);
+  padding: 2rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 15px;
+}
+.title-p {
+  width: 55%;
+  font-weight: bold;
+}
+.default-title {
+  font-size: 3.5rem;
+  font-weight: 300;
+  margin-bottom: 2.5rem;
+}
+.default-title .span {
+  font-weight: bold;
+}
+.divider {
+  background-color: var(--clr-dark);
+}
+
+.divider.divider--vertical {
+  width: 1px;
+  height: 5rem;
+}
+#hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.img {
+  position: absolute;
+  bottom: 0px;
+  right: var(--pad-section);
+  width: 45%;
+}
+
+.layout {
+  height: 70vh;
+  background-color: var(--clr-grey-light);
+  padding: 2rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 15px;
+}
+#camera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divider.divider--hor{
+    height: 1px;
+    width: 5rem;
+}
+.socials
+{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem ;
+    list-style-type: none;
+}
+.socials .social__link{
+    width: 3rem;
+    height: 3rem;
+    background-attachment: var(--clr-dark-sub);
+    color: var(--clr-white);
+    font-size: 1.5rem;
+
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.camera-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
