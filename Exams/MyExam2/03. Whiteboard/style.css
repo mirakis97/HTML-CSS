@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+/* For all items */
+html {
+  font-family: PT Sans, serif;
+}
+body {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+body ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+}
+body ul li span,
+body ul li i {
+  color: white;
+  text-shadow: 1px 2px 1px #000000;
+}
+/* Header */
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
+    url(./image/computer-main.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.header .header__head {
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 1px 2px 1px #000000;
+}
+.header .header-sub {
+  width: 45%;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  text-shadow: 1px 2px 1px #000000;
+}
+.header .header-sub p {
+  font-size: 18px;
+  text-shadow: 1px 2px 1px #000000;
+}
+.header nav {
+  width: 80%;
+  margin: 0 auto;
+  padding: 33px;
+}
+
+.header .btn {
+  background: #00d58e;
+  border: 2px solid #00d58e;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  margin-top: 1.3rem;
+}
+
+.header .btn:hover {
+  background: none;
+  cursor:pointer;
+  border: 2px solid white;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-weight: bold;
+}
+.header .in__action {
+  margin: 3rem;
+  font-size: 18px;
+  text-shadow: 1px 2px 1px #000000;
+}
+/* First Section */
+.firstSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.firstSection img {
+  width: 50%;
+  height: 50%;
+}
+.firstSection ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.firstSection ul li {
+  margin-bottom: 5px;
+}
+.firstSection .main {
+  padding: 10px;
+}
+.firstSection .main p {
+  padding-left: 25px;
+}
+.firstSection .main__header {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Second Section */
+.secondSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: relative;
+}
+.secondSection img {
+  width: 50%;
+  height: 50%;
+}
+.secondSection .head {
+  position: absolute;
+  justify-content: center;
+  margin-left: 120px;
+  margin-top: 16px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.secondSection .icons {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.secondSection .case {
+  padding: 1.5rem;
+  align-items: center;
+}
+.secondSection .case img {
+  height: 50px;
+  width: 70px;
+}
+.secondSection .case span {
+  color: #00d58e;
+}
+
+/* Footer */
+.footer{
+    background-color: #b2f1de;
+    text-align: center;
+}
+.footer ul{
+    display: grid;
+    grid-template-areas: "footer footer footer";
+    padding-right: 15px;
+}
+.footer ul li p{
+  padding-bottom: 15px;
+  margin: 1.5rem 1px; 
+}
+.footer span{
+    font-weight: bold;
+}

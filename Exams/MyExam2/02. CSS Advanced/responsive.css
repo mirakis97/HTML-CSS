@@ -1,0 +1,78 @@
+@media all and (max-width: 600px){
+    body {
+        margin: 0;
+        width: 100%;
+    }
+    form {
+        width: 100%;
+    }
+    .left-to-right:first-child {
+        padding: 64px 0 0;
+    }
+
+    .left-to-right p {
+        width: 84%;
+        margin: 14px auto 0;
+    }
+
+    main .left-to-right article {
+        border-radius: 64px;
+        margin: 0 auto;
+        height: auto;
+        padding: 64px 0;
+    }
+    main .left-to-right article {
+        width: 85%;
+        padding: 0;
+    }
+
+    main section:first-of-type.left-to-right {
+        padding-bottom: 150px;
+        height: auto;
+    }
+
+    button {
+        display: none;
+    }
+    header h1 {
+        font-size: 33px;
+        margin-top: 0;
+    }
+
+    main section:nth-child(2), main section:nth-child(4) {
+        flex-direction: column;
+    }
+
+    main section:nth-of-type(2) header h1 {
+        font-size: 16px;
+    }
+
+    main section:nth-of-type(3).left-to-right {
+        padding: 14px 0;
+    }
+
+    main section:nth-of-type(3) article {
+        width: 77%;
+    }
+
+    section form label input, section form textarea {
+        width: 100%;
+    }
+
+    main section:nth-child(2) article, main section:nth-child(4) article {
+        width: 67%;
+        margin: 14px auto;
+    }
+
+    main section:nth-child(2) article img, main section:nth-child(4) article img {
+        width: 100%;
+    }
+
+    section form label:nth-of-type(4) {
+        text-align: center;
+    }
+
+    main section:nth-of-type(2) article:nth-of-type(2) {
+        margin: 0 auto;
+    }
+}
